@@ -1,0 +1,14 @@
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+!terraform.tfvars.example
+crash.log
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.DS_Store
+evidence/*
+!evidence/README.md
